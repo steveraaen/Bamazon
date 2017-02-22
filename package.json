@@ -1,0 +1,24 @@
+{
+  "name": "Bamazon",
+  "version": "1.0.0",
+  "description": "First build a database called Bamazon, and a table named products.   Products has id auto_increment, product_name, department name, price(cust), stock    Script behavior: \t\t1- Display all products. \t\t\t2- Prompt user for product they want to buy. \t\t\t3- Prompt user for quantity \t\t\t4- Confirm prompt to buy \t\t\t\t5- Check to see if there in sufficient quantity \t\t\t\t6- Decrement quantity.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveraaen/Bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveraaen/Bamazon/issues"
+  },
+  "homepage": "https://github.com/steveraaen/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.0.2",
+    "mysql": "^2.13.0"
+  }
+}
